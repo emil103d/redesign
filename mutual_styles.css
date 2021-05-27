@@ -1,5 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.index {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+}
+
+.index > section {
+  grid-column: 2 / 3;
+}
+
 /* ------------Header ----------------- */
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.menuknap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border: 3px solid gray;
+}
+
+.menuknap_burger {
+  width: 50px;
+  height: 6px;
+  background: gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.menuknap_burger::before,
+.menuknap_burger::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.menuknap_burger::before {
+  transform: translateY(-16px);
+}
+
+.menuknap_burger::after {
+  transform: translateY(16px);
+}
+
+/* 
 header nav ul {
   list-style-type: none;
   display: flex;
@@ -25,7 +94,7 @@ header nav a {
   font-weight: 900;
   color: #001540;
   font-size: 10px;
-}
+} */
 
 @media (min-width: 600px) {
 }
