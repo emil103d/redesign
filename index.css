@@ -1,5 +1,5 @@
 /* ------------Skrift----------------- */
-.col_text {
+#second_section {
   max-width: ;
   background-color: #efd9f0;
   background-size: cover;
@@ -7,7 +7,7 @@
 }
 
 h1 {
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
   display: flex;
   justify-content: center;
 }
