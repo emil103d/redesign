@@ -127,6 +127,28 @@ header img {
   height: 50px;
 }
 
+/* -----Overskrifter og tekst---- */
+h1 {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  line-height: 1.5;
+}
+
+p {
+  font-family: ;
+  font-size: ;
+  font-weight: ;
+  line-height: 1.5;
+}
+
 @media (min-width: 700px) {
   .menuknap {
     display: none;
