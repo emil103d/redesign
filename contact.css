@@ -1,8 +1,12 @@
-footer {
-  background-color: aliceblue;
+.col_text {
+  max-width: ;
+  background-color: #efd9f0;
+  background-size: cover;
+  background-position: ;
 }
 
-section {
+footer {
+  background-color: #efd9f0;
 }
 
 @media (min-width: 900px) {
@@ -10,5 +14,10 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1vw;
+  }
+
+  .col_text {
+    display: flex;
+    justify-content: center;
   }
 }

@@ -1,8 +1,16 @@
-footer {
-  background-color: aliceblue;
+.col_text {
+  max-width: ;
+  background-color: #efd9f0;
+  background-size: cover;
+  background-position: ;
 }
 
-section {
+footer {
+  background-color: efd9f0;
+}
+
+div {
+  margin-bottom: 2vw;
 }
 
 @media (min-width: 900px) {
