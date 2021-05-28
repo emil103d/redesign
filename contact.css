@@ -1,0 +1,14 @@
+footer {
+  background-color: aliceblue;
+}
+
+section {
+}
+
+@media (min-width: 900px) {
+  .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+  }
+}

@@ -13,6 +13,7 @@ img {
 .index {
   display: grid;
   grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  margin-bottom: 2vw;
 }
 
 .index > section {
