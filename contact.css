@@ -1,12 +1,27 @@
 .col_text {
-  max-width: ;
   background-color: #efd9f0;
   background-size: cover;
-  background-position: ;
 }
 
 footer {
   background-color: #efd9f0;
+}
+
+/* Maps rensponsive + center (aspectratio 16:9 --> 9/16x100 = 56.25%) */
+.col_map {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  display: flex;
+  justify-content: center;
+}
+.col_map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 @media (min-width: 900px) {
