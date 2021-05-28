@@ -1,5 +1,13 @@
 /* ------------Skrift----------------- */
+.col_text {
+  max-width: ;
+  background-color: #efd9f0;
+  background-size: cover;
+  background-position: ;
+}
 
 h1 {
-  margin-top: 10vw;
+  margin-bottom: 10vw;
+  display: flex;
+  justify-content: center;
 }
