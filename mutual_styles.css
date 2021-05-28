@@ -143,7 +143,6 @@ header img {
   }
 
   #menu li a {
-    margin: 5vw;
     font-size: 15px;
   }
 
@@ -155,9 +154,8 @@ header img {
     padding-bottom: 0px;
     padding-top: 0.5vw;
     padding-bottom: 1vw;
-    gap: 0.5vw;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: right;
     text-decoration: none;
   }
 
