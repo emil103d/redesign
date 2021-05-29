@@ -21,6 +21,14 @@ video {
   grid-column: 2 / 3;
 }
 
+section {
+  margin-bottom: 4vw;
+}
+
+div {
+  margin-bottom: 2vw;
+}
+
 /* ------------Header ----------------- */
 
 header {
@@ -105,7 +113,7 @@ header {
 #menu {
   list-style-type: none;
   transition: transform 0.3s;
-  background-color: pink;
+  background-color: beige;
   grid-column: 1 / 4;
   grid-row: 2 / 3;
   text-align: right;
@@ -113,9 +121,8 @@ header {
 }
 
 #menu li a {
-  font-family: "Poppins", sans-serif;
+  font-family: baskerville-urw, serif;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 900;
   color: black;
   font-size: 10px;
@@ -126,14 +133,6 @@ header img {
   margin: 5px;
   width: 50px;
   height: 50px;
-}
-
-section {
-  margin-bottom: 4vw;
-}
-
-div {
-  margin-bottom: 2vw;
 }
 
 /* -----Overskrifter og tekst---- */
@@ -199,7 +198,6 @@ footer {
   }
 
   header nav ul {
-    list-style-type: none;
     display: flex;
     padding: 0;
     padding-top: 0px;
