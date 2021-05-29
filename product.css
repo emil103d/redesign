@@ -49,6 +49,11 @@
   margin-top: 0.5vw;
 }
 
+#second_section button:hover {
+  background-color: #cfb997;
+  transform: scale(1.1);
+}
+
 #second_section h3 {
   font-family: baskerville-urw, serif;
 }
