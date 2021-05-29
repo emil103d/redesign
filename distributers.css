@@ -1,0 +1,31 @@
+#first_section {
+  margin: 0;
+  padding: 0;
+}
+
+#first_section .section_wrapper {
+  display: grid;
+  gap: 0.2rem;
+}
+
+#first_section .rows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.2rem;
+}
+
+#first_section .element_1,
+.element_4,
+.element_5 {
+  background-color: #9fbfa4;
+  padding: 1rem;
+  margin: 0.2rem;
+}
+
+#first_section .element_2,
+.element_3,
+.element_6 {
+  background-color: #f2b8a2;
+  padding: 1rem;
+  margin: 0.2rem;
+}
