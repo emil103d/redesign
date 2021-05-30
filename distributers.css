@@ -26,8 +26,8 @@
 #first_section .element_2,
 .element_3,
 .element_6 {
-  background-color: #f2b8a2;
-  box-shadow: 2px 2px 2px #593508;
+  background-color: #efd9f0;
+  box-shadow: 2px 2px 2px gray;
   padding: 1rem;
   margin: 0.2rem;
 }
