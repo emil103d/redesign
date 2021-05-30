@@ -21,6 +21,7 @@
   box-shadow: 10px 10px 50px gray inset;
   padding: 1rem;
   margin: 0.2rem;
+  border-radius: 5%;
 }
 
 #first_section .element_2,
@@ -30,6 +31,7 @@
   box-shadow: 2px 2px 2px gray;
   padding: 1rem;
   margin: 0.2rem;
+  border-radius: 5%;
 }
 
 #first_section img:hover {
