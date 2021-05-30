@@ -13,7 +13,14 @@
 }
 
 /* ------------Boks om tekst----------------- */
-.col_text {
+
+second_section {
+  display: grid;
+  grid-template-columns: repeat(3fr);
+  grid-template-rows: auto;
+}
+
+.article {
   max-width: 1200px;
   background-color: #efd9f0;
   background-size: cover;
