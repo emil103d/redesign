@@ -263,6 +263,9 @@ footer {
   p {
     font-size: 2vw;
   }
+  footer {
+    font-size: 2vw;
+  }
 }
 
 #last_section {
@@ -311,6 +314,10 @@ footer {
   }
 
   p {
+    font-size: 1.2vw;
+  }
+
+  footer {
     font-size: 1.2vw;
   }
 }
