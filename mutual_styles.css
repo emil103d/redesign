@@ -205,6 +205,13 @@ footer {
     font-size: 15px;
   }
 
+  #menu a:hover {
+    border-top: 1px solid #3c6c8a;
+    border-bottom: 1px solid #3c6c8a;
+    transition: 0.3s ease;
+    padding: 5px;
+  }
+
   header nav ul {
     display: flex;
     padding: 0;
