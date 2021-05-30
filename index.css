@@ -14,16 +14,19 @@
 
 /* ------------Boks om tekst----------------- */
 
-second_section {
-  display: grid;
-  grid-template-columns: repeat(3fr);
-  grid-template-rows: auto;
-}
-
-.article {
-  max-width: 1200px;
+#second_section .col_text {
+  text-align: center;
   background-color: #efd9f0;
   background-size: cover;
+  margin-bottom: 3vw;
+}
+
+#second_section .col_text p {
+  text-align: center;
+  background-color: #efd9f0;
+  background-size: cover;
+  margin-left: 6vw;
+  margin-right: 6vw;
 }
 
 /* ------------Skrift----------------- */
