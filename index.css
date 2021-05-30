@@ -61,11 +61,17 @@ h1 {
   font-size: 4vw;
   cursor: pointer;
   margin-top: 1vw;
+  cursor: pointer;
 }
 
 #third_section button:hover {
   background-color: #cfb997;
   transform: scale(1.08);
+}
+
+#third_section a {
+  text-decoration: none;
+  color: black;
 }
 
 @media (min-width: 600px) {
