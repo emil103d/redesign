@@ -64,6 +64,7 @@ aside {
   background-color: beige;
   position: sticky;
   top: 30px;
+  float: left;
 }
 
 aside ul {
@@ -72,16 +73,17 @@ aside ul {
   padding: 0;
 }
 
-aside li {
+aside li a {
   font-family: baskerville-urw, serif;
   font-size: 4vw;
   writing-mode: vertical-lr;
   margin-top: 2vw;
   transform: rotate(180deg);
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
-
-aside li:hover {
+aside li a:hover {
   color: white;
 }
 
@@ -111,7 +113,7 @@ aside li:hover {
     height: 35vw;
   }
 
-  aside li {
+  aside li a {
     font-size: 2vw;
   }
 }
