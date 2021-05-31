@@ -78,16 +78,18 @@ aside ul {
   padding: 0;
 }
 
-aside li {
+aside li a {
   font-family: baskerville-urw, serif;
   font-size: 4vw;
   writing-mode: vertical-lr;
   margin-top: 2vw;
   transform: rotate(180deg);
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
-aside li:hover {
+aside li a:hover {
   color: white;
 }
 /* -------------------------------SIZES--------------------- */
@@ -139,7 +141,7 @@ aside li:hover {
 
   #second_section figure img {
     display: flex;
-    width: 120%;
+    width: 100%;
   }
 
   aside {
@@ -147,7 +149,7 @@ aside li:hover {
     height: 35vw;
   }
 
-  aside li {
+  aside li a {
     font-size: 2vw;
   }
 }
