@@ -56,6 +56,22 @@ button {
   font-style: normal;
 }
 
+.form_felt button {
+  background-color: beige;
+  border-radius: 20px;
+  border: none;
+  font-family: shelby, sans-serif;
+  font-size: 3vw;
+  cursor: pointer;
+  margin-top: 1vw;
+  cursor: pointer;
+}
+
+.form_felt button:hover {
+  background-color: #cfb997;
+  transform: scale(1.08);
+}
+
 article {
   margin-bottom: 0.2vw;
 }

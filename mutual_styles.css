@@ -208,12 +208,12 @@ footer {
   }
 
   #menu a:hover {
-    border-top: 1px solid #3c6c8a;
-    border-bottom: 1px solid #3c6c8a;
+    border-top: 1px solid #171f30;
+    border-bottom: 1px solid#171f30;
     transition: 0.3s ease;
     padding: 5px;
     transition: all ease-in-out 250ms;
-    color: #ffe3e4;
+    color: #171f30;
   }
 
   header nav ul {
