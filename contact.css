@@ -1,12 +1,12 @@
 .col_text,
 .col_form {
-  background-color: #efd9f0;
+  background-color: #ffecde;
   background-size: cover;
   padding: 1vw;
 }
 
 footer {
-  background-color: #efd9f0;
+  background-color: #ffecde;
 }
 
 /* Maps rensponsive (aspectratio 16:9 --> 9/16x100 = 56.25%) */
