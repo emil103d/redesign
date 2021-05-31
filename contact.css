@@ -61,7 +61,7 @@ button {
 }
 
 article {
-  margin-bottom: 2vw;
+  margin-bottom: 0.2vw;
 }
 
 @media (min-width: 700px) {
