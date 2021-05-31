@@ -53,6 +53,7 @@ label,
 input,
 button {
   display: block;
+  font-family: oswald, sans-serif;
 }
 
 @media (min-width: 900px) {
