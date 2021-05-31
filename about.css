@@ -3,8 +3,12 @@
   background-size: cover;
 }
 
+.col_vid {
+  border: 2px solid #ffecde;
+}
+
 footer {
-  background-color: efd9f0;
+  background-color: #efd9f0;
 }
 
 div {
