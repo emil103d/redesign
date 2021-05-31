@@ -1,11 +1,12 @@
-.col_text {
-  background-color: #efd9f0;
+.col_text,
+.col_form {
+  background-color: #ffecde;
   background-size: cover;
   padding: 1vw;
 }
 
 footer {
-  background-color: #efd9f0;
+  background-color: #ffecde;
 }
 
 /* Maps rensponsive (aspectratio 16:9 --> 9/16x100 = 56.25%) */
@@ -54,9 +55,16 @@ input,
 button {
   display: block;
   font-family: oswald, sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+  font-style: normal;
 }
 
-@media (min-width: 900px) {
+article {
+  margin-bottom: 2vw;
+}
+
+@media (min-width: 700px) {
   .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -65,11 +73,32 @@ button {
 
   .col_img {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 1/3;
   }
 
   .col_text {
     grid-column: 2/3;
     grid-row: 1/2;
+  }
+
+  .col_form {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  textarea,
+  label,
+  input,
+  button {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  textarea,
+  label,
+  input,
+  button {
+    font-size: 1.2vw;
   }
 }
