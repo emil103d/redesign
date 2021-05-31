@@ -5,10 +5,6 @@
   padding: 1vw;
 }
 
-footer {
-  background-color: #fff;
-}
-
 /* Maps rensponsive (aspectratio 16:9 --> 9/16x100 = 56.25%) */
 .col_map {
   overflow: hidden;
