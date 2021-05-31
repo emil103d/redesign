@@ -44,6 +44,17 @@ footer {
   margin-left: 2vw;
 }
 
+p {
+  margin-bottom: 1vw;
+}
+
+textarea,
+label,
+input,
+button {
+  display: block;
+}
+
 @media (min-width: 900px) {
   .section_wrapper {
     display: grid;
