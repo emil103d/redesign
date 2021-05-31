@@ -61,6 +61,10 @@
   color: black;
 }
 
+.five {
+  background-color: #ffd8be;
+}
+
 /* -------------------------------second section--------------------- */
 
 aside {
@@ -131,7 +135,6 @@ aside li a:hover {
   .five {
     grid-column: 2 / 4;
     grid-row: 2 / 4;
-    background-color: beige;
   }
 
   #second_section img {
