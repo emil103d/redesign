@@ -18,12 +18,23 @@ h2 {
 }
 
 #third_section {
-  display: flex;
+  display: grid;
+  grid-column: 1 / 4;
+  grid-template-columns: repeat(2, 1fr);
+  background: #ffecde;
+  padding-top: 5vw;
+}
+
+#third_section .col_video {
+  grid-column: 1 / 2;
+  margin-left: 5vw;
 }
 
 #third_section .col_billeder {
   display: grid;
+  grid-column: 2 / 3;
   grid-template-columns: repeat(2, 1fr);
+  margin-left: 5vw;
 }
 
 #third_section .elem_1,
@@ -42,5 +53,9 @@ h2 {
   grid-column: 2 / 3;
   justify-content: center;
   text-align: center;
-  background-position: 0% 30%;
+}
+
+#third_section p {
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
