@@ -104,8 +104,6 @@ aside li a:hover {
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: repeat(6, 1fr);
     gap: 10px;
-    margin-left: 4vw;
-    margin-right: 4vw;
   }
 
   #second_section button {
