@@ -4,5 +4,58 @@
   height: 50vh;
   background-image: url(img/how_to.jpg);
   background-size: cover;
-  background-position: 0% 30%;
+  background-position: 20% 20%;
+}
+
+#first_section h1,
+h2 {
+  padding-left: 5vw;
+}
+
+#third_section img {
+  height: 200px;
+  width: auto;
+}
+
+#third_section {
+  display: grid;
+  grid-column: 1 / 4;
+  grid-template-columns: repeat(2, 1fr);
+  background: #ffecde;
+  padding-top: 5vw;
+}
+
+#third_section .col_video {
+  grid-column: 1 / 2;
+  margin-left: 5vw;
+}
+
+#third_section .col_billeder {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 5vw;
+}
+
+#third_section .elem_1,
+.elem_3 {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / 2;
+  justify-content: center;
+  text-align: center;
+}
+
+#third_section .elem_2,
+.elem_4 {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 2 / 3;
+  justify-content: center;
+  text-align: center;
+}
+
+#third_section p {
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
