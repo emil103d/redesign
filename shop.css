@@ -54,7 +54,7 @@
 }
 
 #second_section button {
-  background-color: beige;
+  background-color: #fec3a6;
   border-radius: 20px;
   border: none;
   font-family: baskerville-urw, serif;
@@ -64,7 +64,7 @@
 }
 
 #second_section button:hover {
-  background-color: #cfb997;
+  background-color: beige;
   transform: scale(1.1);
 }
 
