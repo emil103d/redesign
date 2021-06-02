@@ -4,6 +4,10 @@ h1 {
 }
 
 /* ------------Splash----------------- */
+#first_section.vid {
+  height: 70%;
+}
+
 #first_section.head {
   position: absolute;
   display: flex;
