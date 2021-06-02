@@ -26,6 +26,7 @@
   grid-column: 1 / 4;
   grid-row: 5 / 6;
   margin-left: 2vw;
+  color: pink;
 }
 
 /* --------------- Second --------------- */
@@ -116,7 +117,3 @@ h2 {
 }
 
 /* --------------- Last --------------- */
-
-#last_section h2 {
-  padding: 0;
-}

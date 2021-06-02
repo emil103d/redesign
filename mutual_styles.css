@@ -249,6 +249,17 @@ ul.breadcrumb li a:hover {
   color: #fec3a6;
 }
 
+#last_section {
+  background-color: beige;
+  padding-bottom: 2vw;
+}
+
+#last_section article {
+  margin-left: 3vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
 @media (min-width: 700px) {
   .menuknap {
     display: none;
@@ -368,38 +379,37 @@ ul.breadcrumb li a:hover {
   footer {
     font-size: 2vw;
   }
-}
+  #last_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    min-height: 10vh;
+    align-items: center;
+    background-color: beige;
+    margin-bottom: 0;
+  }
 
-#last_section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  min-height: 10vh;
-  align-items: center;
-  background-color: beige;
-  margin-bottom: 0;
-}
+  #last_section article {
+    margin-left: 10vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
 
-#last_section article {
-  margin-left: 10vw;
-  margin-bottom: 2vw;
-  margin-top: 2vw;
-}
+  #last_section li {
+    margin-top: 1vw;
+  }
 
-#last_section li {
-  margin-top: 1vw;
-}
+  #last_section .contact {
+    grid-column: 1 / 2;
+  }
 
-#last_section .contact {
-  grid-column: 1 / 2;
-}
+  #last_section .info {
+    grid-column: 2 / 3;
+  }
 
-#last_section .info {
-  grid-column: 2 / 3;
-}
-
-#last_section .follow {
-  grid-column: 3 / 4;
+  #last_section .follow {
+    grid-column: 3 / 4;
+  }
 }
 
 @media (min-width: 1000px) {
