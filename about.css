@@ -19,7 +19,7 @@ div {
 }
 
 #video h2 {
-  margin-left: 4vw;
+  margin: 4vw;
 }
 
 #first_section {
@@ -86,6 +86,12 @@ figure {
 #third_section video {
   width: 90%;
   margin: auto;
+}
+
+.social {
+  margin-top: 2vw;
+  margin-left: 2vw;
+  padding-left: 2vw;
 }
 
 @media (min-width: 700px) {
