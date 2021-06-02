@@ -3,18 +3,6 @@ h1 {
   margin-top: 1vw;
 }
 
-/* ------------Splash----------------- */
-#first_section.vid {
-  height: 70%;
-}
-
-#first_section.head {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* ------------Second section----------------- */
 
 #second_section .col_text {
