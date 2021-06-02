@@ -25,6 +25,7 @@ div {
   background-image: url(img/about.jpg);
   background-size: cover;
   background-position: 69% 35%;
+  margin-bottom: 1vw;
 }
 
 #first_section h1 {
