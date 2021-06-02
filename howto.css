@@ -12,6 +12,12 @@ h2 {
   padding-left: 5vw;
 }
 
+#first_section h1 {
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
+  margin-left: 2vw;
+}
+
 #third_section img {
   height: 200px;
   width: auto;
@@ -68,4 +74,8 @@ h2 {
 #third_section .elem_2 img {
   margin-left: 2.5vw;
   margin-right: 2.5vw;
+}
+
+#third_section .guide {
+  padding-left: 5vw;
 }
