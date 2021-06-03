@@ -59,7 +59,7 @@
 
 #third_section img {
   height: 200px;
-  width: auto;
+  width: 100%;
 }
 
 #third_section {
@@ -123,10 +123,6 @@
 #third_section > .col_video > h2 {
   display: flex;
   justify-content: center;
-}
-
-#third_section img {
-  width: 100%;
 }
 
 /* --------------- Last --------------- */
