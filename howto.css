@@ -31,7 +31,9 @@
 /* --------------- Second --------------- */
 
 #second_section {
+  display: grid;
   grid-column: 1 / 4;
+  grid-template-columns: repeat(5, 1fr);
   background: beige;
   padding-left: 5vw;
   padding-right: 5vw;
@@ -39,11 +41,17 @@
 }
 
 #second_section .elem_0 {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column: 1 / 6;
+}
+
+#second_section > h2 {
+  grid-column: 2 / 3;
 }
 
 #second_section img {
+  grid-column: 2 / 5;
   width: 100%;
 }
 
@@ -58,7 +66,6 @@
   display: grid;
   grid-column: 1 / 4;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 100px 1fr 1fr;
   background: #ffecde;
   padding-top: 2vw;
   margin-bottom: 0;
@@ -160,7 +167,6 @@
   }
 
   #third_section .col_video {
-    flex-wrap: wrap;
     grid-column: 1 / 6;
     grid-row: 3 / 4;
     margin: 0;
