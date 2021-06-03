@@ -32,6 +32,7 @@
 #second_section article {
   text-align: center;
   background-color: #ffecde;
+  padding-bottom: 2vw;
 }
 
 #second_section img {
@@ -61,7 +62,7 @@
   margin-right: 2.5vw;
 }
 
-#second_section button {
+#second_section a {
   background-color: #fec3a6;
   border-radius: 20px;
   border: none;
@@ -70,9 +71,10 @@
   cursor: pointer;
   margin-top: 0.5vw;
   margin-bottom: 3vw;
+  padding: 0.25vw;
 }
 
-#second_section button:hover {
+#second_section a:hover {
   background-color: #ebf2ff;
   transform: scale(1.1);
 }
@@ -130,7 +132,7 @@ aside li a:hover {
   #second_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: repeat(6, 1fr);
+    grid-auto-rows: auto;
     gap: 10px;
     margin: 2vw;
   }
@@ -143,7 +145,7 @@ aside li a:hover {
     font-size: 2vw;
   }
 
-  #second_section button {
+  #second_section a {
     font-size: 2vw;
   }
 
