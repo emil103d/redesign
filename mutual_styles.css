@@ -349,7 +349,6 @@ ul.breadcrumb li a:hover {
     margin: 5px;
     width: 30px;
     height: 30px;
-    grid-column: 0 / 1;
     grid-row: 1 / 2;
     margin-top: 1vw;
   }
