@@ -38,6 +38,15 @@
   padding-bottom: 5vw;
 }
 
+#second_section .elem_0 {
+  display: flex;
+  justify-content: center;
+}
+
+#second_section img {
+  width: 100%;
+}
+
 /* --------------- Third --------------- */
 
 #third_section img {
@@ -98,11 +107,6 @@
   padding: 0;
 }
 
-#third_section .elem_2 img {
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
-}
-
 #third_section .guide {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
@@ -115,4 +119,64 @@ h2 {
   justify-content: center;
 }
 
+#third_section img {
+  width: 100%;
+}
+
 /* --------------- Last --------------- */
+
+#last_section h2 {
+  padding: 0;
+}
+
+/* --------------- Media Query --------------- */
+
+@media (max-width: 700px) {
+  #third_section .col_billeder {
+    display: grid;
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
+    grid-template-columns: repeat(8, 1fr);
+    margin: 0;
+  }
+
+  #third_section .elem_1,
+  .elem_3 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 2 / 5;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  #third_section .elem_2,
+  .elem_4 {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 5 / 8;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #third_section .col_video {
+    flex-wrap: wrap;
+    grid-column: 1 / 6;
+    grid-row: 3 / 4;
+    margin: 0;
+  }
+
+  #third_section .elem_1,
+  .elem_2,
+  .elem_3,
+  .elem_4 {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+  }
+
+  #third_section .guide {
+    margin-top: 10vw;
+  }
+}
