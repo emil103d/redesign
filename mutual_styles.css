@@ -343,6 +343,16 @@ ul.breadcrumb li a:hover {
     display: block;
   }
 
+  .icon_one,
+  .icon_two,
+  .icon_tree {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    grid-row: 1 / 2;
+    margin-top: 1vw;
+  }
+
   .logo {
     margin: 0.5vw;
     width: 50px;
