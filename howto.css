@@ -131,6 +131,10 @@
   padding: 0;
 }
 
+#last_section {
+  grid-column: 1 / 4;
+}
+
 /* --------------- Media Query --------------- */
 
 @media (max-width: 700px) {
